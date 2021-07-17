@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/smart-brain-client/static/css/main.aa9c3c52.chunk.css",
-    "main.js": "/smart-brain-client/static/js/main.a39a51c3.chunk.js",
-    "main.js.map": "/smart-brain-client/static/js/main.a39a51c3.chunk.js.map",
+    "main.js": "/smart-brain-client/static/js/main.db62e6ee.chunk.js",
+    "main.js.map": "/smart-brain-client/static/js/main.db62e6ee.chunk.js.map",
     "runtime-main.js": "/smart-brain-client/static/js/runtime-main.3499008b.js",
     "runtime-main.js.map": "/smart-brain-client/static/js/runtime-main.3499008b.js.map",
-    "static/js/2.f67ce0f3.chunk.js": "/smart-brain-client/static/js/2.f67ce0f3.chunk.js",
-    "static/js/2.f67ce0f3.chunk.js.map": "/smart-brain-client/static/js/2.f67ce0f3.chunk.js.map",
+    "static/js/2.b33ad115.chunk.js": "/smart-brain-client/static/js/2.b33ad115.chunk.js",
+    "static/js/2.b33ad115.chunk.js.map": "/smart-brain-client/static/js/2.b33ad115.chunk.js.map",
     "static/js/3.0b91af03.chunk.js": "/smart-brain-client/static/js/3.0b91af03.chunk.js",
     "static/js/3.0b91af03.chunk.js.map": "/smart-brain-client/static/js/3.0b91af03.chunk.js.map",
     "index.html": "/smart-brain-client/index.html",
     "static/css/main.aa9c3c52.chunk.css.map": "/smart-brain-client/static/css/main.aa9c3c52.chunk.css.map",
-    "static/js/2.f67ce0f3.chunk.js.LICENSE.txt": "/smart-brain-client/static/js/2.f67ce0f3.chunk.js.LICENSE.txt"
+    "static/js/2.b33ad115.chunk.js.LICENSE.txt": "/smart-brain-client/static/js/2.b33ad115.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3499008b.js",
-    "static/js/2.f67ce0f3.chunk.js",
+    "static/js/2.b33ad115.chunk.js",
     "static/css/main.aa9c3c52.chunk.css",
-    "static/js/main.a39a51c3.chunk.js"
+    "static/js/main.db62e6ee.chunk.js"
   ]
 }
