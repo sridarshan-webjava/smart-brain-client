@@ -27,3 +27,29 @@
 .links a + a {
   margin-left: 1rem;
 }
+
+.logged-user-input {
+  display: none;
+}
+
+.user-details {
+  position: relative;
+  top: 1rem;
+}
+
+.user-details img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto 1rem;
+}
+
+.user-details ul {
+  visibility: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logged-user-input:checked + .user-details ul {
+  visibility: visible;
+}
