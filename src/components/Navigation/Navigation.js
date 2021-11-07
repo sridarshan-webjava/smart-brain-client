@@ -1,6 +1,7 @@
-import Logo from "./brain-icon.png";
-import "./Navigation.css";
 import Tilt from "react-parallax-tilt";
+import Logo from "./brain-icon.png";
+import User from "./user.svg";
+import "./Navigation.css";
 
 const Navigation = ({ onRouteChange, currentPage }) => {
   return (
@@ -20,9 +21,23 @@ const Navigation = ({ onRouteChange, currentPage }) => {
           </a>
         </div>
       ) : (
-        <a href="#" onClick={() => onRouteChange("signin")}>
-          Sign Out
-        </a>
+        <>
+          <input
+            type="checkbox"
+            id="logged-user"
+            className="logged-user-input"
+          />
+          <label htmlFor="logged-user" className="user-details">
+            <img src={User} alt="user-logo" />
+            <ul className="user-options">
+              <li className="user-option">
+                <a href="#" onClick={() => onRouteChange("signin")}>
+                  Sign Out
+                </a>
+              </li>
+            </ul>
+          </label>
+        </>
       )}
     </nav>
   );
