@@ -1,0 +1,29 @@
+.nav-container {
+  padding: 1rem 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.nav-container .wrapper {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.25rem;
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b06ab3, #4568dc);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.nav-container .wrapper img {
+  margin: auto;
+}
+
+.links a + a {
+  margin-left: 1rem;
+}
