@@ -186,6 +186,7 @@ class App extends Component {
             <ImageLink
               onInputChange={this.onInputChange}
               onButtonSubmit={this.onButtonSubmit}
+              inputValue={this.state.input}
             />
             <FaceRecognition
               box={this.state.box}
